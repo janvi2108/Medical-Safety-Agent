@@ -1,0 +1,40 @@
+MIT License
+
+Copyright (c) 2026 [Your Name]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+## Important: this license covers source code only
+
+The MIT License above applies **only to the source code in this
+repository** (the Python backend, React frontend, prompts, scripts, tests,
+and documentation authored for this project).
+
+It does **not** apply to, and does not grant any rights over, the DDInter
+2.0 dataset. DDInter's data is a separate third-party work, governed by
+its own terms as published at https://ddinter2.scbdd.com. This project
+does not redistribute DDInter's data - `data/raw/ddinter/` is left empty
+by default (see `data/raw/ddinter/README.md`), and anyone using this
+project must download the official files themselves and comply with
+DDInter's own terms of use, independent of this project's MIT license.
+
+If you fork or reuse this project, you are responsible for confirming
+DDInter's current terms permit your intended use of their data.

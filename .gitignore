@@ -1,0 +1,33 @@
+# Secrets
+.env
+.env.*
+!.env.example
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+*.pem
+*.p12
+*.pfx
+*.key
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.pytest-tmp/
+
+# Generated database (local dev)
+data/processed/ddinter/*.db
+
+# Node / frontend
+frontend/node_modules/
+frontend/dist/
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
